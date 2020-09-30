@@ -21,10 +21,10 @@
 
   vars:
     haproxy_backend_servers:
-      - name: 192.168.4.3
-        address: 192.168.4.3:80
-      - name: 192.168.4.4
-        address: 192.168.4.4:80
+      - name: 192.168.0.159
+        address: 192.168.0.159:80
+      - name: 192.168.0.158
+        address: 192.168.0.158:80
 
   roles:
     - geerlingguy.haproxy
