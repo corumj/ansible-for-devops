@@ -5,13 +5,13 @@ This project builds a simple application architecture with a load balancer which
 The infrastructure is fairly simple, with the following structure:
 
                      -----------------------
-                    | HAProxy (192.168.4.2) |
+                    | HAProxy (192.168.0.157) |
                      -----------------------
                                |
                 _______________________________
                |                               |
      ----------------------         ----------------------
-    | Apache (192.168.4.3) |       | Apache (192.168.4.4) |
+    | Apache (192.168.0.159) |       | Apache (192.168.0.158) |
      ----------------------         ----------------------
 
 ## Building the VMs
